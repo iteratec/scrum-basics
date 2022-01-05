@@ -4,13 +4,10 @@ on:
   - push
 
 jobs:
-
   deploy:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout
         uses: actions/checkout@v2
 
@@ -19,8 +16,8 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-          node-version: '14.x'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: "14.x"
+          registry-url: "https://registry.npmjs.org"
 
       - name: "Install dependencies"
         run: npm install
@@ -35,8 +32,8 @@ jobs:
         if: github.ref == 'refs/heads/master'
         run: |
           ls -al
-          git config --global user.email "d.negrier@thecodingmachine.com"
-          git config --global user.name "David Négrier"
+          git config --global user.email "scrum.basics@iteratec.com"
+          git config --global user.name "iteratec"
           git checkout master
           git add .
           git commit -am "Adding files"
