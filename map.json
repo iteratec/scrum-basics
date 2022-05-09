@@ -697,7 +697,7 @@
                         {
                          "name":"allowed_values",
                          "type":"string",
-                         "value":"{\n  \"Course Intro\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO4X5_N8=\/?moveToViewport=-11745,-780,2820,1888\",\n  \"Agile Principles\": \"https:\/\/miro.com\/app\/embed\/uXjVO4X5_N8=\/?pres=1&frameId=3458764524509953209\",\n  \"----\": \"\",\n  \"Course Intro\": \"\",\n  \"Agile Principles\": \"\",\n}"
+                         "value":"{\n  \"Course Intro\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO4X5_N8=\/?moveToViewport=-11741,-773,2816,1871&embedAutoplay=true\",\n  \"Agile Principles\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO4X5_N8=\/?moveToViewport=4737,5833,2821,1866&embedAutoplay=true\",\n  \"----\": \"\",\n  \"Course Intro\": \"\",\n  \"Agile Principles\": \"\",\n}"
                         }, 
                         {
                          "name":"default",
