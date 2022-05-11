@@ -60,7 +60,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"group_incri.json"
+                 "value":".\/group_incri.json"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -93,7 +93,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"group_letho.json"
+                 "value":".\/group_letho.json"
                 }],
          "type":"tilelayer",
          "visible":true,
