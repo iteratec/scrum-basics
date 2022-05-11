@@ -948,7 +948,7 @@
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"\"https:\/\/miro.com\/app\/live-embed\/uXjVO2N3vo4=\/?moveToViewport=857,-782,2843,1906&embedAutoplay=true\""
+                         "value":"https:\/\/miro.com\/app\/live-embed\/uXjVO2N3vo4=\/?moveToViewport=857,-782,2843,1906&embedAutoplay=true"
                         }, 
                         {
                          "name":"type",
