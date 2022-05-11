@@ -41,7 +41,8 @@ function playTutorial(popup: Popup) {
   }
 }
 
-WA.room.onEnterZone("start", () => {
+WA.room.onEnterZone("start", async () => {
+  await WA.onInit();
   WA.controls.disablePlayerControls();
   console.log(`${WA.player.name}: ${WA.player.tags.join(", ")}`);
   WA.ui.openPopup("popupTutorial", tutorial[tutorialIndex], [
