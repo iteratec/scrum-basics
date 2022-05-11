@@ -943,12 +943,12 @@
                         {
                          "name":"allowed_values",
                          "type":"string",
-                         "value":"{\n  \"Course Intro\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=860,-774,2839,1883&embedAutoplay=true\",\n  \"Agile Principles\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=17335,5828,2836,1885&embedAutoplay=true\",\n}"
+                         "value":"{\n  \"Course Intro\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=855,-772,2847,1888&embedAutoplay=true\",\n  \"Sprint Planning\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=10336,-5436,2833,1872&embedAutoplay=true\"\n}"
                         }, 
                         {
                          "name":"default",
                          "type":"string",
-                         "value":"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=860,-774,2839,1883&embedAutoplay=true"
+                         "value":"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=855,-772,2847,1888&embedAutoplay=true"
                         }, 
                         {
                          "name":"type",
