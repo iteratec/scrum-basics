@@ -7,6 +7,7 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 bootstrapExtra().catch((e) => console.error(e));
 
 let currentPopup: any = undefined;
+let hasCompletedTutorial = false;
 const time = new Date().toLocaleTimeString("de-de", { timeStyle: "short" });
 // const hours = today.getHours();
 // const minutes = today.getMinutes();
@@ -38,19 +39,21 @@ function playTutorial(popup: Popup) {
     ]);
   } else {
     WA.controls.restorePlayerControls();
+    hasCompletedTutorial = true;
   }
 }
 
 WA.room.onEnterZone("start", async () => {
-  await WA.onInit();
-  WA.controls.disablePlayerControls();
-  console.log(`${WA.player.name}: ${WA.player.tags.join(", ")}`);
-  WA.ui.openPopup("popupTutorial", tutorial[tutorialIndex], [
-    {
-      label: "Got it",
-      callback: playTutorial,
-    },
-  ]);
+  if (!hasCompletedTutorial) {
+    await WA.onInit();
+    WA.controls.disablePlayerControls();
+    WA.ui.openPopup("popupTutorial", tutorial[tutorialIndex], [
+      {
+        label: "Got it",
+        callback: playTutorial,
+      },
+    ]);
+  }
 });
 
 function closePopUp() {
