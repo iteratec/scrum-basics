@@ -156,7 +156,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":28,
          "id":63,
-         "name":"doorStepIncri",
+         "name":"doorstepIncri",
          "opacity":1,
          "properties":[
                 {
