@@ -332,7 +332,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"Welcome"
+                 "value":"Forum_Incri"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
@@ -397,7 +397,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"sg1"
+                 "value":"sg1_incri"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
@@ -447,7 +447,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"sg2"
+                 "value":"sg2_inci"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
@@ -497,7 +497,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"sg3"
+                 "value":"sg3_incri"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
@@ -547,7 +547,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"sg4"
+                 "value":"sg4_incri"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
