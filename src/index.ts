@@ -1,5 +1,6 @@
 /// <reference path="../node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
 
+import { Popup } from "@workadventure/iframe-api-typings/Api/iframe/Ui/Popup";
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure.
@@ -18,6 +19,37 @@ WA.room.onEnterZone("clock", () => {
 });
 
 WA.room.onLeaveZone("clock", closePopUp);
+
+let tutorialIndex = 0;
+const tutorial = [
+  "Use the curser keys to move around.",
+  "Walk up to another player to start an A/V call.",
+  "Up to 4 players can talk that way.",
+  "Some areas start a video conference, where more than 4 players can talk.",
+  "Now find out which door opens for you!",
+];
+
+function playTutorial(popup: Popup) {
+  popup.close();
+  tutorialIndex++;
+  if (tutorialIndex < tutorial.length) {
+    WA.ui.openPopup("popupTutorial", tutorial[tutorialIndex], [
+      { label: "Got it!", callback: playTutorial },
+    ]);
+  } else {
+    WA.controls.restorePlayerControls();
+  }
+}
+
+WA.room.onEnterZone("start", () => {
+  WA.controls.disablePlayerControls();
+  WA.ui.openPopup("popupTutorial", tutorial[tutorialIndex], [
+    {
+      label: "Got it",
+      callback: playTutorial,
+    },
+  ]);
+});
 
 function closePopUp() {
   if (currentPopup !== undefined) {
