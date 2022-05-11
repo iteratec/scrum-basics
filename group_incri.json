@@ -78,7 +78,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"group_letho.json"
+                 "value":"https:\/\/play.workadventu.re\/@\/iteratecgmbh\/training\/group2"
                 }],
          "type":"tilelayer",
          "visible":true,
