@@ -943,7 +943,7 @@
                         {
                          "name":"allowed_values",
                          "type":"string",
-                         "value":"{\n  \"Backlog\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=847,1492,1564,1912&embedAutoplay=true\",\n  \"------------------\": \"\",\n  \"Day1 - Agile Principles\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=17326,5773,2855,1945&embedAutoplay=true\",\n  \"------------------\": \"\",\n  \"Day2 - Sprint Planning\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=10321,-5487,2872,1955&embedAutoplay=true\",\n  \"------------------\": \"\",\n  \"Day3 - Make'n'Break\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=-534,5507,3446,3999&embedAutoplay=true\"\n}"
+                         "value":"{\n  \"Backlog\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=847,1492,1564,1912&embedAutoplay=true\",\n  \"------------------\": \"\",\n  \"Day1 - Course Intro\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=855,-772,2847,1888&embedAutoplay=true\",\n  \"Day1 - Agile Principles\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=17326,5773,2855,1945&embedAutoplay=true\",\n  \"------------------\": \"\",\n  \"Day2 - Sprint Planning\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=10321,-5487,2872,1955&embedAutoplay=true\",\n  \"------------------\": \"\",\n  \"Day3 - Make'n'Break\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2NtFPA=\/?moveToViewport=-534,5507,3446,3999&embedAutoplay=true\"\n}"
                         }, 
                         {
                          "name":"default",
