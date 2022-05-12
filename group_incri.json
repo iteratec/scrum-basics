@@ -943,7 +943,7 @@
                         {
                          "name":"allowed_values",
                          "type":"string",
-                         "value":"{\n  \"Course Intro\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2N3vo4=\/?moveToViewport=857,-782,2843,1906&embedAutoplay=true\",\n  \"Sprint Planning\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2N3vo4=\/?moveToViewport=10329,-5437,2845,1875&embedAutoplay=true\",\n  \"------------------\": \"\",\n  \"Day1 - Apply DoR\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2N3vo4=\/?moveToViewport=17181,-215,4643,1931&embedAutoplay=true\"\n}"
+                         "value":"{\n  \"Backlog\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2N3vo4=\/?moveToViewport=851,1485,1525,1939&embedAutoplay=true\",\n  \"------------------\": \"\",\n  \"Day1 - Agile Principles\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2N3vo4=\/?moveToViewport=17331,5792,2839,1922&embedAutoplay=true\",\n  \"------------------\": \"\",\n  \"Day2 - Sprint Planning\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2N3vo4=\/?moveToViewport=10326,-5482,2856,1931&embedAutoplay=true\",\n  \"------------------\": \"\",\n  \"Day3 - Make'n'Break\": \"https:\/\/miro.com\/app\/live-embed\/uXjVO2N3vo4=\/?moveToViewport=-531,5482,3496,4030&embedAutoplay=true\"\n}"
                         }, 
                         {
                          "name":"default",
